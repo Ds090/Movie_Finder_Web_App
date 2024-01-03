@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <div className="w-[100vw] h-[800px] flex justify-center items-center bg-gradient-to-br from-red-900 to-black">
+    <div className="w-[100vw] lg:h-[100vh] h-[800px] flex justify-center items-center bg-gradient-to-br from-red-900 to-black">
       
       <MusicList/>
     </div>
