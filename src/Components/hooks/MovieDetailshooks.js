@@ -17,7 +17,7 @@ function UsemovieDetailshooks() {
     setisLoading(true);
     try {
       var reponse = await axios.get(
-        `http://www.omdbapi.com/?t=${query || "Evil dead"}&apikey=108704e5&`
+        `https://www.omdbapi.com/?t=${query || "Evil dead"}&apikey=108704e5&`
       );
 
       // const data = await reponse.json();
