@@ -32,7 +32,7 @@ function UsemovieDetailshooks() {
         Runtime: reponse.data.Runtime,
         Plot: reponse.data.Plot,
         Actors: reponse.data.Actors,
-        Plot1: "Plot",
+        Plot1: "Quick Story Line",
         Cast: "Actors",
         Response: reponse.data.Response,
       });

@@ -61,7 +61,7 @@ function MusicList() {
 
             <div className="flex flex-col gap-2 justify-center">
               <div>
-                <h1 className="text-[20px] font-bold">
+                <h1 className="text-[20px] font-bold bg-gradient-to-br from-cyan-500 to-white bg-clip-text text-transparent">
                   {moveieName.poster ? moveieName.Plot1 : ""}
                 </h1>
                 <span className="text-stone-600 text-[16px] font-semibold">
@@ -70,7 +70,7 @@ function MusicList() {
               </div>
 
               <div>
-                <h1 className="text-[20px] font-bold">
+                <h1 className="text-[20px] font-bold bg-gradient-to-br from-cyan-500 to-white bg-clip-text text-transparent">
                   {moveieName.poster ? moveieName.Cast : ""}
                 </h1>
                 <span className="text-stone-600 text-[16px] font-semibold">
