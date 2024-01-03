@@ -5,7 +5,7 @@ function MusicList() {
 
   return (
     
-      <div className="lg:w-[400px] px-3 py-4 flex flex-col justify-center items-center bg-stone-900 text-white rounded shadow shadow-white w-[350px]">
+      <div className="lg:w-[400px] px-3 py-4 flex flex-col justify-center items-center bg-stone-900 text-white rounded shadow shadow-white w-[300px] ">
         <div className="flex gap-1">
           <input
             type="text"
