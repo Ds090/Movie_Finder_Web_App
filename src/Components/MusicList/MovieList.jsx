@@ -9,7 +9,7 @@ function MusicList() {
         <div className="flex gap-1">
           <input
             type="text"
-            className="py-2 px-1 mb-5 rounded bg-black lg:w-[260px] w-[150px] text-white shadow shadow-[#f71212] outline-none focus:transition-colors focus:enabled:shadow-teal-600 focus:duration-500 focus:delay-500"
+            className="py-2 px-1 mb-5 rounded bg-black lg:w-[260px] w-[100px] text-white shadow shadow-[#f71212] outline-none focus:transition-colors focus:enabled:shadow-teal-600 focus:duration-500 focus:delay-500"
             onChange={debounceCallBack}
             placeholder="Enter Movie Name"
           />
