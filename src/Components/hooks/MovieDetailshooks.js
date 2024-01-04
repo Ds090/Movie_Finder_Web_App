@@ -20,7 +20,6 @@ function UsemovieDetailshooks() {
         `https://www.omdbapi.com/?t=${query || "Evil dead"}&apikey=108704e5&`
       );
 
-      // const data = await reponse.json();
       console.log(reponse.data);
 
       setMovieName({
