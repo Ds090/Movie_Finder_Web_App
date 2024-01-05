@@ -6,7 +6,7 @@ function UsemovieDetailshooks() {
   
   const [moveieName, setMovieName] = useState([]);
  
-  const [query, setquery] = useState("thor");
+  const [query, setquery] = useState("Hacker");
 
   
   const [isloading, setisLoading] = useState(true);
