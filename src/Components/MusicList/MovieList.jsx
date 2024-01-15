@@ -1,4 +1,5 @@
 import UsemovieDetailshooks from "../hooks/MovieDetailshooks";
+import Loader from "../loader/Loader";
 
 function MusicList() {
   const {isloading, moveieName, debounceCallBack, downloagMusic} = UsemovieDetailshooks();
@@ -25,7 +26,7 @@ function MusicList() {
 
         
         {(moveieName.Response === 'False') ? <div className="text-2xl bg-gradient-to-tr from-white  to-black bg-clip-text text-transparent font-bold">Movie is Not Fount!</div> : (isloading) ? (
-          <div className="text-2xl bg-gradient-to-tr from-white  to-black bg-clip-text text-transparent font-bold">Loading....</div>
+          <div className="text-2xl bg-gradient-to-tr from-white  to-black bg-clip-text text-transparent font-bold flex gap-1 items-center"><Loader/></div>
         ) : (
           <div className="flex  flex-col justify-center items-center gap-1">
             <img src={moveieName.poster} alt="" className="lg:w-[180px] w-[150px] rounded" />
